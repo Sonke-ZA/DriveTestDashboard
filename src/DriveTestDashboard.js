@@ -585,7 +585,7 @@ const isValidCoordinate = (lat, lng) => {
     
     return { lat: avgLat, lng: avgLng };
   }, [filteredData]);
-  const googleApiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY || process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || 'AIzaSyCVCWvIL2OHB6c0QMR_fetzeNulXUo-hCg';  // ensure you set this
+  const googleApiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY || process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || 'SET THIS';  // ensure you set this
 
   /* small class color map used in legend and markers */
   const classColors = {
